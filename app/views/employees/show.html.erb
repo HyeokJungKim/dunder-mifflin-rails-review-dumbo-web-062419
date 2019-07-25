@@ -1,0 +1,42 @@
+<h1>Employees Show</h1>
+
+<img src="<%= @employee.img_url %>" alt="emp">
+
+<p>
+  <%= @employee.first_name %>
+</p>
+<p>
+  <%= @employee.last_name %>
+</p>
+<p>
+  <%= @employee.alias %>
+</p>
+<p>
+  <%= @employee.office %>
+</p>
+<p>
+  <%= @employee.title %>
+</p>
+
+
+<h2>Dog</h2>
+  <%= link_to @employee.dog.name, dog_path(@employee.dog) %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
